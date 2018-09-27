@@ -1,0 +1,9 @@
+/dev/*			# devfs populates this directory at boot-time and as-needed
+/media/*		# Auto-populated as and when you mount/eject media
+/mnt/*			# Mountpoints should be established afresh
+/proc/*			# Temporal entries
+/sys/*			# Temporal entries
+/tmp/*			# Temporal entries
+/usr/ports		# freebsd user can just run 'portsnap fetch extract'
+/var/tmp/*		# Temporal entries
+/lost+found/*	# linux user does not need this in the back-up -- or so I hope
